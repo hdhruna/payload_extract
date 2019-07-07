@@ -1,6 +1,7 @@
 #!/bin/bash -e
 # exit when any command fails
 
+# initiate variables for trap
 last_cmd=""
 current_cmd=""
 
