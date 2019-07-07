@@ -66,3 +66,5 @@ services=$(grep -oP '.*?(?=:)' /tmp/result.txt)
         echo "The service $name is $status"
     fi
 done
+
+rm -rf /tmp/result.txt
